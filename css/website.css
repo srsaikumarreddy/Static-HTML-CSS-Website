@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+}
+li{
+
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+.navbar {
+   overflow: hidden;
+   background-color: white;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+}
+
+.headpic{
+  margin-left: 100px;
+  height:30px;
+  width:30px;
+}
+
+p{
+  font-family:'Sofia',cursive;
+}
+
+h1{ 
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#heroid /*tried hero */
+{
+   width:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+       background-size: cover;
+    position: relative;
+   
+  }
+
+.content{
+    float:left;
+}
+
+aside {
+    margin-top: 30px;
+    float: right;
+    margin-right: 200px;
+}
+ul a{
+
+    text-decoration: none;
+}
+img {
+  max-width:300px;
+  height:400px;
+}
+
+ul a:hover{
+    color:green;
+}
+.pics {
+  margin-bottom: 40px;
+}
+footer{background-color: #333;text-align:center;margin-top: 50px;}
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+
+}
+
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+}
+
+
+.fa-twitter {
+   background: #55ACEE;
+   color: white;
+   margin: 20px;
+}
+
