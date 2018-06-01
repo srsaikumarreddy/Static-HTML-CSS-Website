@@ -1,26 +1,28 @@
-body{
-    font-family: sans-serif;
-}
-li{
 
-    display: inline;
+li{  font-size:13px;
+     display: inline;
     padding-right: 10px;
+  text-transform:uppercase;
     
 }
-
+body{
+   margin-top:100px;
+}
 .navbar {
-   overflow: hidden;
-   background-color: white;
+   overflow:hidden;
+   background-color:white;
    position: fixed; /* Set the navbar to fixed position */
    top: 0; /* Position the navbar at the top of the page */
    width: 100%; /* Full width */
+   height:100px;
 }
 
 .headpic{
   margin-left: 100px;
-  height:30px;
-  width:30px;
+  height:50px;
+  width:50px;
 }
+
 
 p{
   font-family:'Sofia',cursive;
@@ -30,49 +32,95 @@ h1{
     font-size: 40px;
     margin-top: 10px;
     margin-left: 20px;
+    text-transform:uppercase;
+}
+.headlines
+{
+  margin-left:490px;
+  text-decoration:underline;
+}
+.hero 
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/12.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    position:relative;
 }
 
-#heroid /*tried hero */
-{
-   width:100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-       background-size: cover;
-    position: relative;
-   
-  }
 
+
+.herotext p{
+  font-size:30px;
+  margin-top: 20px;
+  margin-left: 100px;
+  text-align:center;
+  color:black;
+}
+
+.herotext button{
+  font-size:30px;
+  margin-top:40 px;
+  margin-left:100px;
+  text-align:center;
+  color:black;
+  border:2px solid white;
+
+}
 .content{
     float:left;
 }
 
-aside {
+nav {
     margin-top: 30px;
     float: right;
     margin-right: 200px;
 }
 ul a{
 
-    text-decoration: none;
-}
-img {
+    text-decoration:none;
+
+} 
+.images {
+
   max-width:300px;
   height:400px;
 }
 
+.figtext{
+  font-size:25px;
+  color:red;
+}
 ul a:hover{
     color:green;
+}
+.metainfo {
+   height:400px;
 }
 .pics {
   margin-bottom: 40px;
 }
-footer{background-color: #333;text-align:center;margin-top: 50px;}
+footer
+{
+  text-align:center;margin-top: 50px;
+  background-color:black ;
+  color:white;}
+
+footer h3
+{
+   text-transform:capitalize;
+}
+footer p{
+  color:yellow;
+}
 .fa {
    padding: 20px;
    font-size: 30px;
    width: 50px;
-   text-align: center;
+   text-align:center;
    text-decoration: none;
 
 }
@@ -80,6 +128,8 @@ footer{background-color: #333;text-align:center;margin-top: 50px;}
 .fa-facebook {
    background: #3B5998;
    color: white;
+   border-radius:50%;
+   width:20px;
 }
 
 
@@ -87,5 +137,14 @@ footer{background-color: #333;text-align:center;margin-top: 50px;}
    background: #55ACEE;
    color: white;
    margin: 20px;
+    border-radius:50%;
+    width:20px;
 }
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius:50%;
+  width:20px;
+}
+
 
